@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #171836;
+  color: rgba(255, 255, 255, 0.4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.site-header {
+  padding: 20px;
+}
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.header-row {
+  justify-content: space-between;
+}
+.logo-content {
+  margin-right: 148px;
+}
+.logo {
+  width: 82px;
+  height: 40px;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-item {
+  margin-right: 44px;
+}
+.nav-item.active .nav-link {
+  color: #fff;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.4);
+}
+.login-content {
+}
+.lang {
+  display: flex;
+  align-items: center;
+}
+.lang i {
+  font-size: 27px;
+  margin-left: 4px;
+}
+.login-btn {
+  padding: 12px 32px;
+  background: #f5443b;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 31px;
+}
+
+.hero-content {
+  background: url("../image/group.png"),url("../image/student.png"), url("../image/bgfon.png");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: 375px 546px ,61px -48px, 0 133px;
+  background-size: 322px ,650px 650px, 656.95px 555.5px;
+  display: flex;
+  align-items: center;
+}
+.row-hero {
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  width: 484px;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+}
+.text,
+.subtitle {
+  width: 478px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 56px;
+}
+.subtitle {
+  margin-bottom: 34px;
+}
+
+.hero-input {
+  background: #1F2143;
+  border-radius: 12px;
+  padding: 18px 28px;
+  color: rgba(255, 255, 255, 0.4);
+  width: 506px;
+  border: none;
+  margin-bottom: 48px;
+}
+.btn-list {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  width: 600px;
+  gap: 24px;
+}
+.btn-item {
+  padding: 8px 18px;
+  border: 2px solid  rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+}
